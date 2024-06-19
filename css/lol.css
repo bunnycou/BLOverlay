@@ -1,9 +1,10 @@
 :root { /* Configurable properties */
-    --blue: #0099e0; /* Left Team */
-    --red: #e83d3d; /* Right Team */
-    --accent: #00aeff; /* accent color */
+    --blue: #00002b; /* Left Team */
+    --red: #00002b; /* Right Team */
+    --accent: #00002b; /* accent color */
     --font-fam: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Font */
     --font-color: #fff;
+    --border-color: #edba48;
 
     /* Vars to not be touched!!! */
     --draft_titleEdgeOffset: 16.5vw;
@@ -103,6 +104,8 @@ div.game_titleBlock {
 	height: 5.6vh;
     position: absolute;
     border-radius: var(--border);
+    border-style: solid;
+    border-color: var(--border-color);
 }
 
 p.game_titleBlock{
@@ -115,6 +118,8 @@ div.game_scoreBlock {
     position: relative;
     top: 4.1vh;
     border-radius: 50%;
+    border-style: solid;
+    border-color: var(--border-color);
 }
 
 p.game_scoreBlock {
@@ -151,6 +156,8 @@ div#game_bottom {
     bottom: 0;
     /* border-top-right-radius: 6%; */
     background: var(--accent);
+    border-style: solid;
+    border-color: var(--border-color);
 }
 
 p#game_game {
