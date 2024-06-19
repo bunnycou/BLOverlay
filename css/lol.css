@@ -33,68 +33,59 @@ div {
 
 /* DRAFT */
 
-div.draft_titleBlock {
-    width: 14vw;
-	height: 9vh;
+img#overlayImg {
     position: absolute;
-    border-radius: var(--border);
+    left: 0;
+    top: 0;
+    z-index: -1;
 }
 
-p.draft_titleBlock{
-    font-size: 6vh;
-}
-
-div.draft_scoreBlock {
-    width: 3vw;
-    height: 7vh;
-    position: relative;
-    top: 8vh;
-    border-radius: var(--border);
-}
-
-p.draft_scoreBlock {
-    font-size: 4vh;
-    top: 1vh;
-}
-
-div#draft_titleBlockBlue {
-	/* transform: skew(20deg); */
-    background: var(--blue);
-    left: var(--draft_titleEdgeOffset);
-}
-
-div#draft_scoreBlockBlue {
-    background: var(--blue);
-}
-
-div#draft_titleBlockRed {
-    background: var(--red);
-    right: var(--draft_titleEdgeOffset);
-}
-
-div#draft_scoreBlockRed {
-    background: var(--red);
-    float: right;
-}
-
-div#draft_bottom {
-    width: 100%;
-    height: 35vh;
+div.draft_team {
     position: absolute;
-    bottom: 0;
-    background-image: linear-gradient(to top, var(--accent) 70%, rgba(0,0,0,0));
+    top: 2vh;
+    width: 16vw;
+    height: 10vh;
 }
 
-p#draft_game {
-    font-size: 8vh;
-    top: 10vh;
-    height: 40%;
+div.draft_score {
+    position: absolute;
+    top: 84vh;
+    width: 10vh;
+    height: 10vh;
 }
 
-p#draft_patch {
-    font-size: 8vh;
-    height: 40%;
-    bottom: 0;
+div#draft_blue {
+    left: 1vw;
+}
+
+div#draft_red {
+    right: 1vw;
+}
+
+div#draft_blueScore {
+    left: 41vw;
+}
+
+div#draft_redScore {
+    right: 41.6vw;
+}
+
+p.draft_team {
+    color: var(--border-color);
+    font-size: 4em;
+}
+
+p#draft_blueName {
+    text-align: left;
+}
+
+p#draft_redName {
+    text-align: right;
+}
+
+p.draft_score {
+    color: var(--border-color);
+    font-size: 4em;
 }
 
 /* IN GAME */

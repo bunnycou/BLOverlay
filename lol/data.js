@@ -4,6 +4,7 @@ function loadVars() {
     var redName = localStorage.getItem("red")
     var redScore = localStorage.getItem("redScore")
     var patch = localStorage.getItem("patch")
+    var casters = localStorage.getItem("casters")
 
     if (!blueName) { blueName = "Blue" }
 
@@ -15,11 +16,14 @@ function loadVars() {
 
     if (!patch) { patch = getLatest() }
 
+    if (!casters) { casters = 1 }
+
     document.getElementById("blue").value = blueName
     document.getElementById("blueScore").value = blueScore
     document.getElementById("red").value = redName
     document.getElementById("redScore").value = redScore
     document.getElementById("patch").value = patch
+    document.getElementById("casters").value = casters;
 }
 
 function getLatest() {
@@ -39,6 +43,7 @@ function storeVars() {
     let redVar = document.getElementById("red").value
     let redScoreVar = document.getElementById("redScore").value
     let patchVar = document.getElementById("patch").value
+    let castersVar = document.getElementById("casters").value
 
     localStorage.setItem("blue", blueVar)
     localStorage.setItem("blueScore", blueScoreVar)
@@ -46,6 +51,7 @@ function storeVars() {
     localStorage.setItem("redScore", redScoreVar)
     localStorage.setItem("game", parseInt(blueScoreVar)+parseInt(redScoreVar)+1)
     localStorage.setItem("patch", patchVar)
+    localStorage.setItem("casters", castersVar)
     
     loadVars();
 }
@@ -56,6 +62,7 @@ function swapVars() {
     let redVar = document.getElementById("red").value
     let redScoreVar = document.getElementById("redScore").value
     let patchVar = document.getElementById("patch").value
+    let castersVar = document.getElementById("casters").value
 
     var tmp
     tmp = redVar
@@ -72,6 +79,7 @@ function swapVars() {
     localStorage.setItem("redScore", redScoreVar)
     localStorage.setItem("game", parseInt(blueScoreVar)+parseInt(redScoreVar)+1)
     localStorage.setItem("patch", patchVar)
+    localStorage.setItem("casters", castersVar)
     
     loadVars();
 }
