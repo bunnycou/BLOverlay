@@ -161,3 +161,16 @@ p#game_patch {
     height: 40%;
     bottom: 1.4vh;
 }
+
+/* INTRO */
+div#intro_POTW {
+    position: absolute;
+    top: 89.4vh;
+    left: 37.5vw;
+    height: 4vh;
+    width: 25vw;
+}
+
+p#POTW {
+    font-size: 2em;
+}
