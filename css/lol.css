@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
 :root { /* Configurable properties */
     --blue: #00002b; /* Left Team */
     --red: #00002b; /* Right Team */
     --accent: #00002b; /* accent color */
-    --font-fam: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Font */
+    --font-fam: "Josefin Sans", sans-serif;; /* Font */
     --font-color: #fff;
     --border-color: #edba48;
 
@@ -20,6 +22,7 @@ p {
     font-family: var(--font-fam);
     color: var(--font-color);
     margin: 0;
+    padding-top: 0.3em;
     position: absolute;
     width: 100%;
     height: 100%;
