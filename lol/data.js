@@ -5,25 +5,23 @@ function loadVars() {
     var redScore = localStorage.getItem("redScore")
     var patch = localStorage.getItem("patch")
     var casters = localStorage.getItem("casters")
+    var potw = localStorage.getItem("potw")
 
     if (!blueName) { blueName = "Blue" }
-
     if (!blueScore) { blueScore = 0 }
-
     if (!redName) { redName = "Red" }
-
     if (!redScore) { redScore = 0 }
-
     if (!patch) { patch = getLatest() }
-
     if (!casters) { casters = 1 }
+    if (!potw) { potw = "Everyone" }
 
     document.getElementById("blue").value = blueName
     document.getElementById("blueScore").value = blueScore
     document.getElementById("red").value = redName
     document.getElementById("redScore").value = redScore
     document.getElementById("patch").value = patch
-    document.getElementById("casters").value = casters;
+    document.getElementById("casters").value = casters
+    document.getElementById("potw").value = potw
 }
 
 function getLatest() {
@@ -44,6 +42,7 @@ function storeVars() {
     let redScoreVar = document.getElementById("redScore").value
     let patchVar = document.getElementById("patch").value
     let castersVar = document.getElementById("casters").value
+    let potwVar = document.getElementById("potw").value
 
     localStorage.setItem("blue", blueVar)
     localStorage.setItem("blueScore", blueScoreVar)
@@ -52,6 +51,7 @@ function storeVars() {
     localStorage.setItem("game", parseInt(blueScoreVar)+parseInt(redScoreVar)+1)
     localStorage.setItem("patch", patchVar)
     localStorage.setItem("casters", castersVar)
+    localStorage.setItem("potw", potwVar)
     
     loadVars();
 }
@@ -63,6 +63,7 @@ function swapVars() {
     let redScoreVar = document.getElementById("redScore").value
     let patchVar = document.getElementById("patch").value
     let castersVar = document.getElementById("casters").value
+    let potwVar = document.getElementById("potw").value
 
     var tmp
     tmp = redVar
@@ -80,6 +81,7 @@ function swapVars() {
     localStorage.setItem("game", parseInt(blueScoreVar)+parseInt(redScoreVar)+1)
     localStorage.setItem("patch", patchVar)
     localStorage.setItem("casters", castersVar)
+    localStorage.setItem("potw", potwVar)
     
     loadVars();
 }
