@@ -10,7 +10,18 @@ if (!blueScore) { blueScore = "0" }
 if (!redName) { redName = "Red" }
 if (!redScore) { redScore = "0" }
 if (!game) { game = "Game 1" } else { game = "Game " + game }
-if (!patch) { patch = "Latest Patch" } else { patch = "Patch " + patch }
+if (!patch) { patch = getLatest() }
+
+function getLatest() {
+    return JSON.parse(Get("https://ddragon.leagueoflegends.com/api/versions.json"))[0].split(".").slice(0,2).join(".");
+}
+
+function Get(url){
+    var Httpreq = new XMLHttpRequest(); // a new request
+    Httpreq.open("GET",url,false);
+    Httpreq.send(null);
+    return Httpreq.responseText;
+}
 
 document.getElementById("blueTeam").textContent = blueName
 document.getElementById("blueScore").textContent = blueScore

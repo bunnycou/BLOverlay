@@ -162,7 +162,8 @@ p#game_game {
 p#game_patch {
     font-size: 4vh;
     height: 40%;
-    bottom: 1.4vh;
+
+    padding-top: 6vh;
 }
 
 /* INTRO */
