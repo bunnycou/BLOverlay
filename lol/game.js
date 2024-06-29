@@ -10,7 +10,7 @@ if (!blueScore) { blueScore = "0" }
 if (!redName) { redName = "Red" }
 if (!redScore) { redScore = "0" }
 if (!game) { game = "Game 1" } else { game = "Game " + game }
-if (!patch) { patch = getLatest() }
+if (!patch) { patch = "Patch " + getLatest() } else { patch = "Patch " + patch }
 
 function getLatest() {
     return JSON.parse(Get("https://ddragon.leagueoflegends.com/api/versions.json"))[0].split(".").slice(0,2).join(".");
