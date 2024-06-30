@@ -178,3 +178,26 @@ div#intro_POTW {
 p#POTW {
     font-size: 2em;
 }
+
+/* Starting Soon and Ending */
+video#overlayVid {
+    z-index: 0;
+}
+
+div#startingMOTD {
+    z-index: 1;
+
+    position: absolute;
+    
+    top: 86vh;
+    left: 29vw;
+
+    height: 10vh;
+    width: 60vw;
+}
+
+p#motd {
+    font-size: 4em;
+    font-weight: bold;
+    color: var(--accent);
+}
