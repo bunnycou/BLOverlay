@@ -34,6 +34,33 @@ div {
     margin: 0;
 }
 
+/* INTRO */
+div#intro_POTW {
+    position: absolute;
+    top: 89.4vh;
+    left: 37.5vw;
+    height: 4vh;
+    width: 25vw;
+}
+
+p#POTW {
+    font-size: 2em;
+}
+
+div.intro_caster {
+    position:absolute;
+
+    /* border-color: #ff0000;
+    border-style: solid;
+    border-width: 5px; */
+}
+
+p.intro_caster {
+    font-size: 4em;
+    display: flex;
+    align-items: flex-end;
+}
+
 /* DRAFT */
 
 img#overlayImg {
@@ -89,6 +116,20 @@ p#draft_redName {
 p.draft_score {
     color: var(--border-color);
     font-size: 4em;
+}
+
+div.draft_caster {
+    position:absolute;
+
+    /* border-color: #ff0000;
+    border-style: solid;
+    border-width: 5px; */
+}
+
+p.draft_caster {
+    font-size: 4em;
+    display: flex;
+    align-items: flex-end;
 }
 
 /* IN GAME */
@@ -164,19 +205,6 @@ p#game_patch {
     height: 40%;
 
     padding-top: 6vh;
-}
-
-/* INTRO */
-div#intro_POTW {
-    position: absolute;
-    top: 89.4vh;
-    left: 37.5vw;
-    height: 4vh;
-    width: 25vw;
-}
-
-p#POTW {
-    font-size: 2em;
 }
 
 /* Starting Soon and Ending */
