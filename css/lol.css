@@ -57,7 +57,8 @@ div.intro_caster {
 
 p.intro_caster {
     font-size: 4em;
-    text-shadow: -5px 4px 2px var(--accent);
+    /* text-shadow: 2px 2px 8px var(--accent); */
+    text-shadow: -2px 0 4px var(--accent), 0 2px 4px var(--accent), 2px 0 4px var(--accent), 0 -2px 4px var(--accent);
 
     display: flex;
     align-items: flex-end;
@@ -130,7 +131,8 @@ div.draft_caster {
 
 p.draft_caster {
     font-size: 4em;
-    text-shadow: -5px 4px 2px var(--accent);
+    /* text-shadow: 2px 2px 8px var(--accent); */
+    text-shadow: -2px 0 4px var(--accent), 0 2px 4px var(--accent), 2px 0 4px var(--accent), 0 -2px 4px var(--accent);
 
     display: flex;
     align-items: flex-end;
