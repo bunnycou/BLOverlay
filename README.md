@@ -13,10 +13,10 @@ There is a `Discord` scene that has a single window capture that needs to be set
 
 Add the following URLs as browser sources
 
-`https://bloverlay.carrotbyte.net/lol/starting.html` - Starting Soon Screen
-`https://bloverlay.carrotbyte.net/lol/intro.html` - Intro Screen (POTW)
-`https://bloverlay.carrotbyte.net/lol/draft.html` - Draft Screen
-`https://bloverlay.carrotbyte.net/lol/game.html` - In Game Overlay
+`https://bloverlay.carrotbyte.net/lol/starting.html` - Starting Soon Screen\
+`https://bloverlay.carrotbyte.net/lol/intro.html` - Intro Screen (POTW)\
+`https://bloverlay.carrotbyte.net/lol/draft.html` - Draft Screen\
+`https://bloverlay.carrotbyte.net/lol/game.html` - In Game Overlay\
 `https://bloverlay.carrotbyte.net/lol/ending.html` - Stream Over Screen
 
 Then add an OBS browser dock with the URL `https://bloverlay.carrotbyte.net/lol/data.html`
