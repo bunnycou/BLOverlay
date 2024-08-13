@@ -7,7 +7,7 @@ Hosted at [bloverlay.carrotbyte.net](https://bloverlay.carrotbyte.net)
 
 Download the [`BeerLeagueWeb.json`](BeerLeagueWeb.json) for OBS
 
-There is a `Discord` scene that has a single window capture that needs to be set to a **discord voice chat POPOUT WINDOW** and **YOU NEED TO HAVE A DISCORD STREAM GOING**. Then the webcams/discord avatars should be in the right place. You will also need to disable your webcam input in OBS and turn your webcam on in discord. 
+There is a `Discord` scene that has a single window capture that needs to be set to a **discord voice chat POPOUT WINDOW** and **YOU NEED TO HAVE A DISCORD STREAM GOING** (such as desktop stream to show draft/game to the other casters). Then the webcams/discord avatars should be in the right place. You will also need to disable your webcam input in OBS and turn your webcam on in discord. 
 
 ### OR Setup without BeerLeagueWeb.json
 
