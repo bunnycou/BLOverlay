@@ -25,5 +25,7 @@ Then add an OBS browser dock with the URL `https://bloverlay.carrotbyte.net/lol/
 
 This will add a window in OBS that gives fields for entering the information that needs to be displayed on screen
 
+Don't forget the [Beer League stinger transition](assets/BLStinger.webm) (transition at frame 60)
+
 ## Preview
 ![Beer League Web Preview](BeerLeagueWeb.png)
