@@ -19,7 +19,7 @@ Add the following URLs as browser sources
 `https://bloverlay.carrotbyte.net/lol/game.html` - In Game Overlay\
 `https://bloverlay.carrotbyte.net/lol/ending.html` - Stream Over Screen
 
-## **IMPORTANT** - After you get the scenes
+## **IMPORTANT FOR ALL SETUPS** - After you get the scenes
 
 Then add an OBS browser dock with the URL `https://bloverlay.carrotbyte.net/lol/data.html`
 
