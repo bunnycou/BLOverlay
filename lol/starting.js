@@ -4,3 +4,5 @@ function load() {
 
     document.getElementById("motd").textContent = "Coming Up: " + blue + " VS " + red
 }
+
+setInterval(load, 5000)
