@@ -11,31 +11,34 @@ function load() {
     if (!caster3) { caster3 = "Caster 3" }
     if (!POTW) { POTW = "Everyone" }
 
+    let caster1Box = document.getElementById("intro_caster1Box")
+    let caster2Box = document.getElementById("intro_caster2Box")
+    let caster3Box = document.getElementById("intro_caster3Box")
+    
     if (casters == 1) {
         let height = "10vh"
         let width = "39vw"
         let bottom = "24vh"
 
-        let caster1Box = document.getElementById("intro_caster1Box")
         caster1Box.style.height = height
         caster1Box.style.width = width
         caster1Box.style.bottom = bottom
         caster1Box.style.left = "30vw"
 
         document.getElementById("intro_caster1").textContent = caster1
+        document.getElementById("intro_caster2").textContent = ""
+        document.getElementById("intro_caster3").textContent = ""
 
     } else if (casters == 2 ) {
         let height = "10vh"
         let width = "39vw"
         let bottom = "24vh"
 
-        let caster1Box = document.getElementById("intro_caster1Box")
         caster1Box.style.height = height
         caster1Box.style.width = width
         caster1Box.style.bottom = bottom
         caster1Box.style.left = "7vw"
 
-        let caster2Box = document.getElementById("intro_caster2Box")
         caster2Box.style.height = height
         caster2Box.style.width = width
         caster2Box.style.bottom = bottom
@@ -43,25 +46,23 @@ function load() {
 
         document.getElementById("intro_caster1").textContent = caster1
         document.getElementById("intro_caster2").textContent = caster2
+        document.getElementById("intro_caster3").textContent = ""
 
     } else if (casters == 3) {
         let height = "10vh"
         let width = "28vw"
         let bottom = "29vh"
 
-        let caster1Box = document.getElementById("intro_caster1Box")
         caster1Box.style.height = height
         caster1Box.style.width = width
         caster1Box.style.bottom = bottom
         caster1Box.style.left = "4vw"
 
-        let caster2Box = document.getElementById("intro_caster2Box")
         caster2Box.style.height = height
         caster2Box.style.width = width
         caster2Box.style.bottom = bottom
         caster2Box.style.left = "35.8vw"
 
-        let caster3Box = document.getElementById("intro_caster3Box")
         caster3Box.style.height = height
         caster3Box.style.width = width
         caster3Box.style.bottom = bottom
