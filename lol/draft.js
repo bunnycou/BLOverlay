@@ -29,6 +29,8 @@ function load() {
         caster1Box.style.left = "30vw"
 
         document.getElementById("draft_caster1").textContent = caster1
+        document.getElementById("draft_caster2").textContent = ""
+        document.getElementById("draft_caster3").textContent = ""
 
     } else if (casters == 2 ) {
         let height = "10vh"
@@ -49,6 +51,7 @@ function load() {
 
         document.getElementById("draft_caster1").textContent = caster1
         document.getElementById("draft_caster2").textContent = caster2
+        document.getElementById("draft_caster3").textContent = ""
 
     } else if (casters == 3) {
         let height = "10vh"
