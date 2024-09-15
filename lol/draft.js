@@ -89,4 +89,4 @@ function load() {
     document.getElementById("overlayImg").src = "../assets/" + casters + " Man Draft Overlay.png"
 }
 
-setTimeout(load, 5000)
+setInterval(load, 5000)
