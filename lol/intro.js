@@ -77,4 +77,4 @@ function load() {
     document.getElementById("POTW").textContent = POTW
 }
 
-setInterval(load, 5000)
+setInterval(load, 1000)
