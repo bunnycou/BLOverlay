@@ -1,8 +1,14 @@
 function load() {
     var blue = localStorage.getItem("blue")
     var red = localStorage.getItem("red")
+    var motd = localStorage.getItem("motd")
 
-    document.getElementById("motd").textContent = "Coming Up: " + blue + " VS " + red
+    if (!motd) {
+        document.getElementById("motd").textContent = "Coming Up: " + blue + " VS " + red
+    } else {
+        document.getElementById("motd").textContent = motd
+    }
+    
 }
 
 setInterval(load, 1000)

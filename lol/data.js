@@ -9,6 +9,7 @@ function loadvars() {
     let caster2 = localStorage.getItem("caster2")
     let caster3 = localStorage.getItem("caster3")
     let potw = localStorage.getItem("potw")
+    let motd = localStorage.getItem("motd")
 
     if (!blueName) { blueName = "Blue" }
     if (!blueScore) { blueScore = 0 }
@@ -20,6 +21,7 @@ function loadvars() {
     if (!caster2) { caster2 = "Caster 2" }
     if (!caster3) { caster3 = "Caster 3" }
     if (!potw) { potw = "Everyone" }
+    if (!motd) { motd = "" }
 
     document.getElementById("blue").value = blueName
     document.getElementById("blueScore").value = blueScore
@@ -31,6 +33,7 @@ function loadvars() {
     document.getElementById("caster2").value = caster2
     document.getElementById("caster3").value = caster3
     document.getElementById("potw").value = potw
+    document.getElementById("motd").value = motd
 }
 
 function getLatest() {
@@ -55,6 +58,7 @@ function storevars() {
     let caster2 = document.getElementById("caster2").value
     let caster3 = document.getElementById("caster3").value
     let potw = document.getElementById("potw").value
+    let motd = document.getElementById("motd").value
 
     localStorage.setItem("blue", blue)
     localStorage.setItem("blueScore", blueScore)
@@ -67,6 +71,7 @@ function storevars() {
     localStorage.setItem("caster2", caster2)
     localStorage.setItem("caster3", caster3)
     localStorage.setItem("potw", potw)
+    localStorage.setItem("motd", motd)
 }
 
 function swapvars() {
