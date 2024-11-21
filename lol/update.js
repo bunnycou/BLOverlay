@@ -25,6 +25,7 @@ function load() {
     try { document.getElementById("patch").textContent = patch } catch (error) { console.log("No patch display") }
     try { document.getElementById("potw").textContent = potw } catch (error) { console.log("No potw display") }
     try { document.getElementById("motd").textContent = motd } catch (error) { console.log("No motd display") }
+    console.log("--Load finished--")
 }
 
 setInterval(load, 1000)
