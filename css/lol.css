@@ -109,10 +109,12 @@ p.draft_player {
     color: var(--border-color);
     font-size: 4vh;
 
-    width: 16vw;
-    height: 6vh;
+    /* width: 16vw; */
+    width: auto;
+    height: auto;
+    background: var(--accent);
 
-    text-shadow: -3px -3px 0 #000, 3px -3px 0 #000, -3px 3px 0 #000, 3px 3px 0 #000;
+    /* text-shadow: -3px -3px 0 #000, 3px -3px 0 #000, -3px 3px 0 #000, 3px 3px 0 #000; */
 
     /* border: #818385;
     border-style: solid; */
