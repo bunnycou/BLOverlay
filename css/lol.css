@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
 
 :root { /* Configurable properties */
-    --blue: #edba48; /* Left Team */
-    --red: #edba48; /* Right Team */
+    --blue: #0099e0; /* Left Team */
+    --red: #e83d3d; /* Right Team */
+    --gold: #edba48;
     --accent: #818385; /* accent color */
     --background: #00002b;
     --font-fam: "Josefin Sans", sans-serif;; /* Font */
     --font-color: #fff;
-    --border-color: #edba48;
 
     /* Vars to not be touched!!! */
     --draft_titleEdgeOffset: 16.5vw;
@@ -88,7 +88,7 @@ div#draft_redScore {
 }
 
 p.draft_team {
-    color: var(--border-color);
+    color: var(--gold);
     font-size: 4em;
 }
 
@@ -101,20 +101,19 @@ p.draft_redTeam {
 }
 
 p.draft_score {
-    color: var(--border-color);
+    color: var(--gold);
     font-size: 4em;
 }
 
 p.draft_player {
-    color: var(--border-color);
+    color: var(--gold);
     font-size: 4vh;
 
     /* width: 16vw; */
     width: auto;
     height: auto;
-    background: var(--accent);
 
-    /* text-shadow: -3px -3px 0 #000, 3px -3px 0 #000, -3px 3px 0 #000, 3px 3px 0 #000; */
+    text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
 
     /* border: #818385;
     border-style: solid; */
@@ -123,11 +122,13 @@ p.draft_player {
 p.draft_pblue {
     text-align: left;
     left: 1vw;
+    background: var(--blue)
 }
 
 p.draft_pred {
     text-align: right;
     right: 1vw;
+    background: var(--red)
 }
 
 p.draft_top {
@@ -158,7 +159,7 @@ div.game_titleBlock {
     position: absolute;
     border-radius: var(--border);
     border-style: solid;
-    border-color: var(--border-color);
+    border-color: var(--gold);
 }
 
 p.game_titleBlock{
@@ -172,7 +173,7 @@ div.game_scoreBlock {
     top: 4.1vh;
     border-radius: 50%;
     border-style: solid;
-    border-color: var(--border-color);
+    border-color: var(--gold);
 }
 
 p.game_scoreBlock {
@@ -210,7 +211,7 @@ div#game_bottom {
     /* border-top-right-radius: 6%; */
     background: var(--background);
     border-style: solid;
-    border-color: var(--border-color);
+    border-color: var(--gold);
 }
 
 p.game_game {
@@ -259,7 +260,7 @@ div.score_blueMain {
     width: 18vw;
     height: 12vh;
 
-    background: var(--blue);
+    background: var(--gold);
 
     border-radius: var(--border-all);
 }
@@ -273,7 +274,7 @@ div.score_blueScore {
     width: 8vw;
     height: 16vh;
 
-    background: var(--blue);
+    background: var(--gold);
 
     border-radius: var(--border-all);
 }
