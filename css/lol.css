@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
 
 :root { /* Configurable properties */
-    --blue: #00002b; /* Left Team */
-    --red: #00002b; /* Right Team */
-    --accent: #00002b; /* accent color */
+    --blue: #edba48; /* Left Team */
+    --red: #edba48; /* Right Team */
+    --accent: #818385; /* accent color */
+    --background: #00002b;
     --font-fam: "Josefin Sans", sans-serif;; /* Font */
     --font-color: #fff;
     --border-color: #edba48;
@@ -43,25 +44,8 @@ div#intro_POTW {
     width: 25vw;
 }
 
-p#POTW {
+p#potw {
     font-size: 2em;
-}
-
-div.intro_caster {
-    position:absolute;
-
-    /* border-color: #ff0000;
-    border-style: solid;
-    border-width: 5px; */
-}
-
-p.intro_caster {
-    font-size: 4em;
-    /* text-shadow: 2px 2px 8px var(--accent); */
-    text-shadow: -2px 0 4px var(--accent), 0 2px 4px var(--accent), 2px 0 4px var(--accent), 0 -2px 4px var(--accent);
-
-    display: flex;
-    align-items: flex-end;
 }
 
 /* DRAFT */
@@ -108,34 +92,17 @@ p.draft_team {
     font-size: 4em;
 }
 
-p#draft_blueName {
+p.draft_blueTeam {
     text-align: left;
 }
 
-p#draft_redName {
+p.draft_redTeam {
     text-align: right;
 }
 
 p.draft_score {
     color: var(--border-color);
     font-size: 4em;
-}
-
-div.draft_caster {
-    position:absolute;
-
-    /* border-color: #ff0000;
-    border-style: solid;
-    border-width: 5px; */
-}
-
-p.draft_caster {
-    font-size: 4em;
-    /* text-shadow: 2px 2px 8px var(--accent); */
-    text-shadow: -2px 0 4px var(--accent), 0 2px 4px var(--accent), 2px 0 4px var(--accent), 0 -2px 4px var(--accent);
-
-    display: flex;
-    align-items: flex-end;
 }
 
 /* IN GAME */
@@ -170,23 +137,23 @@ p.game_scoreBlock {
 
 div#game_titleBlockBlue {
 	/* transform: skew(20deg); */
-    background: var(--blue);
+    background: var(--background);
     left: 10.4vw
 }
 
 div#game_scoreBlockBlue {
-    background: var(--blue);
+    background: var(--background);
     right: -1.5vh;
     float: right;
 }
 
 div#game_titleBlockRed {
-    background: var(--red);
+    background: var(--background);
     right: 9.7vw
 }
 
 div#game_scoreBlockRed {
-    background: var(--red);
+    background: var(--background);
     left: -1.5vh;
 }
 
@@ -196,21 +163,19 @@ div#game_bottom {
     position: absolute;
     bottom: 0;
     /* border-top-right-radius: 6%; */
-    background: var(--accent);
+    background: var(--background);
     border-style: solid;
     border-color: var(--border-color);
 }
 
-p#game_game {
+p.game_game {
     font-size: 4vh;
-    height: 40%;
 }
 
-p#game_patch {
+p.game_patch {
     font-size: 4vh;
-    height: 40%;
 
-    padding-top: 6vh;
+    top: 5vh;
 }
 
 /* Starting Soon and Ending */
@@ -233,5 +198,92 @@ div#startingMOTD {
 p#motd {
     font-size: 4em;
     font-weight: bold;
-    color: var(--accent);
+}
+
+/* Between Games/Score screen */
+body.score_body {
+    background: var(--background);
+}
+
+div.score_blueMain {
+    position: absolute;
+
+    top: 55vh;
+    left: 16vw;
+
+    width: 18vw;
+    height: 12vh;
+
+    background: var(--blue);
+
+    border-radius: var(--border-all);
+}
+
+div.score_blueScore {
+    position: absolute;
+
+    top: 68vh;
+    left: 21vw;
+
+    width: 8vw;
+    height: 16vh;
+
+    background: var(--blue);
+
+    border-radius: var(--border-all);
+}
+
+div.score_redMain {
+    position: absolute;
+    
+    top: 55vh;
+    right: 16vw;
+
+    width: 18vw;
+    height: 12vh;
+
+    background: var(--red);
+
+    border-radius: var(--border-all);
+}
+
+div.score_redScore {
+    position: absolute;
+
+    top: 68vh;
+    right: 21vw;
+
+    width: 8vw;
+    height: 16vh;
+
+    background: var(--red);
+
+    border-radius: var(--border-all);
+}
+
+p.score_name {
+    margin-top: -1vh;
+    font-size: 10vh;
+}
+
+p.score_score {
+    font-size: 12vh;
+}
+
+div.score_patch {
+    position: absolute;
+
+    bottom: 0;
+    left: 40vw;
+
+    width: 20vw;
+    height: 8vh;
+
+    background: var(--accent);
+
+    border-radius: var(--border-inverse);
+}
+
+p.score_patch {
+    font-size: 5vh;
 }

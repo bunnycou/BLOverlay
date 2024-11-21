@@ -4,10 +4,6 @@ function loadvars() {
     let redName = localStorage.getItem("red")
     let redScore = localStorage.getItem("redScore")
     let patch = localStorage.getItem("patch")
-    let casters = localStorage.getItem("casters")
-    let caster1 = localStorage.getItem("caster1")
-    let caster2 = localStorage.getItem("caster2")
-    let caster3 = localStorage.getItem("caster3")
     let potw = localStorage.getItem("potw")
     let motd = localStorage.getItem("motd")
 
@@ -16,10 +12,6 @@ function loadvars() {
     if (!redName) { redName = "Red" }
     if (!redScore) { redScore = 0 }
     if (!patch) { patch = getLatest() }
-    if (!casters) { casters = 1 }
-    if (!caster1) { caster1 = "Caster 1" }
-    if (!caster2) { caster2 = "Caster 2" }
-    if (!caster3) { caster3 = "Caster 3" }
     if (!potw) { potw = "Everyone" }
     if (!motd) { motd = "" }
 
@@ -28,10 +20,6 @@ function loadvars() {
     document.getElementById("red").value = redName
     document.getElementById("redScore").value = redScore
     document.getElementById("patch").value = patch
-    document.getElementById("casters").value = casters
-    document.getElementById("caster1").value = caster1
-    document.getElementById("caster2").value = caster2
-    document.getElementById("caster3").value = caster3
     document.getElementById("potw").value = potw
     document.getElementById("motd").value = motd
 }
@@ -53,10 +41,6 @@ function storevars() {
     let red = document.getElementById("red").value
     let redScore= document.getElementById("redScore").value
     let patch = document.getElementById("patch").value
-    let casters= document.getElementById("casters").value
-    let caster1 = document.getElementById("caster1").value
-    let caster2 = document.getElementById("caster2").value
-    let caster3 = document.getElementById("caster3").value
     let potw = document.getElementById("potw").value
     let motd = document.getElementById("motd").value
 
@@ -66,10 +50,6 @@ function storevars() {
     localStorage.setItem("redScore", redScore)
     localStorage.setItem("game", parseInt(blueScore) + parseInt(redScore) + 1)
     localStorage.setItem("patch", patch)
-    localStorage.setItem("casters", casters)
-    localStorage.setItem("caster1", caster1)
-    localStorage.setItem("caster2", caster2)
-    localStorage.setItem("caster3", caster3)
     localStorage.setItem("potw", potw)
     localStorage.setItem("motd", motd)
 }
