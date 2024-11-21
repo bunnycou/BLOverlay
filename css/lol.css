@@ -107,7 +107,7 @@ p.draft_score {
 
 p.draft_player {
     color: var(--gold);
-    font-size: 4vh;
+    font-size: 3vh;
 
     /* width: 16vw; */
     width: auto;
@@ -136,23 +136,23 @@ p.draft_pred {
 }
 
 p.draft_top {
-    top: 21vh;    
+    top: 22vh;    
 }
 
 p.draft_jgl {
-    top: 34.5vh;    
+    top: 35.8vh;    
 }
 
 p.draft_mid {
-    top: 48vh;    
+    top: 49.4vh;    
 }
 
 p.draft_bot {
-    top: 65vh;    
+    top: 66.2vh;    
 }
 
 p.draft_sup {
-    top: 78.5vh;    
+    top: 79.8vh;    
 }
 
 /* IN GAME */
