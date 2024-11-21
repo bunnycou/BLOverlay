@@ -7,17 +7,19 @@ Hosted at [bloverlay.carrotbyte.net](https://bloverlay.carrotbyte.net)
 
 Download the [`BeerLeagueWeb.json`](BeerLeagueWeb.json) for OBS
 
-There is a `Discord` scene that has a single window capture that needs to be set to a **discord voice chat POPOUT WINDOW** and **YOU NEED TO HAVE A DISCORD STREAM GOING** (such as desktop stream to show draft/game to the other casters). Then the webcams/discord avatars should be in the right place. You will also need to disable your webcam input in OBS and turn your webcam on in discord. 
-
 ### OR Setup without BeerLeagueWeb.json
 
-Add the following URLs as browser sources
+Add the following URLs as browser sources to different scenes
 
 `https://bloverlay.carrotbyte.net/lol/starting.html` - Starting Soon Screen\
 `https://bloverlay.carrotbyte.net/lol/intro.html` - Intro Screen (POTW)\
 `https://bloverlay.carrotbyte.net/lol/draft.html` - Draft Screen\
 `https://bloverlay.carrotbyte.net/lol/game.html` - In Game Overlay\
+`https://bloverlay.carrotbyte.net/lol/scores.html` - Score Display Screen\
 `https://bloverlay.carrotbyte.net/lol/ending.html` - Stream Over Screen
+
+
+The Score Display Screen has dead space intended for you to fill. There is dead space in Intro and Draft as well which can be filled by webcams or this fancy [BL logo](assets/bl.png)
 
 ## **IMPORTANT FOR ALL SETUPS** - After you get the scenes
 
@@ -25,7 +27,7 @@ Then add an OBS browser dock with the URL `https://bloverlay.carrotbyte.net/lol/
 
 This will add a window in OBS that gives fields for entering the information that needs to be displayed on screen
 
-Don't forget the [Beer League stinger transition](assets/BLStinger.webm) (transition at frame 60)
+Don't forget the [Beer League stinger transition](assets/BLStinger.webm) (set transition at frame 60!!)
 
 ## Preview
 ![Beer League Web Preview](BeerLeagueWeb.png)
