@@ -19,7 +19,9 @@ Add the following URLs as browser sources to different scenes
 `https://bloverlay.carrotbyte.net/lol/ending.html` - Stream Over Screen
 
 
-The Score Display Screen has dead space intended for you to fill. There is dead space in Intro and Draft as well which can be filled by webcams or this fancy [BL logo](assets/bl.png) (browser source for logo is `https://bloverlay.carrotbyte.net/assets/logo.html`)
+The Score Display Screen has dead space intended for you to fill. 
+There is dead space in Intro and Draft as well which can be filled by webcams or this fancy [BL logo](assets/bl.png) 
+(browser source for logo is `https://bloverlay.carrotbyte.net/assets/logo.html`)
 
 ## **IMPORTANT FOR ALL SETUPS** - After you get the scenes
 
