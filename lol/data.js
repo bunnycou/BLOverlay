@@ -3,8 +3,8 @@ function loadvars() {
     let blueScore =  localStorage.getItem("blueScore")
     let redName = localStorage.getItem("red")
     let redScore = localStorage.getItem("redScore")
-    let blueTeam = localStorage.getItem("blueTeam")
-    let redTeam = localStorage.getItem("redTeam")
+    let blueTeam = localStorage.getItem("blueTeam").split(",")
+    let redTeam = localStorage.getItem("redTeam").split(",")
     let patch = localStorage.getItem("patch")
     let potw = localStorage.getItem("potw")
     let motd = localStorage.getItem("motd")
@@ -40,10 +40,10 @@ function loadTeam(team, side) {
 
 function getTeam(side) {
     return [    
-        document.getElementById(side+"Top").value, 
-        document.getElementById(side+"Jgl").value, 
-        document.getElementById(side+"Mid").value, 
-        document.getElementById(side+"Bot").value, 
+        document.getElementById(side+"Top").value,
+        document.getElementById(side+"Jgl").value,
+        document.getElementById(side+"Mid").value,
+        document.getElementById(side+"Bot").value,
         document.getElementById(side+"Sup").value
     ]
 }
