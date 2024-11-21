@@ -105,6 +105,47 @@ p.draft_score {
     font-size: 4em;
 }
 
+p.draft_player {
+    color: var(--border-color);
+    font-size: 4vh;
+
+    width: 16vw;
+    height: 6vh;
+
+    /* border: #818385;
+    border-style: solid; */
+}
+
+p.draft_pblue {
+    text-align: left;
+    left: 1vw;
+}
+
+p.draft_pred {
+    text-align: right;
+    right: 1vw;
+}
+
+p.draft_top {
+    top: 21vh;    
+}
+
+p.draft_jgl {
+    top: 34.5vh;    
+}
+
+p.draft_mid {
+    top: 48vh;    
+}
+
+p.draft_bot {
+    top: 65vh;    
+}
+
+p.draft_sup {
+    top: 78.5vh;    
+}
+
 /* IN GAME */
 
 div.game_titleBlock {
