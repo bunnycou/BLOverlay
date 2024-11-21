@@ -115,6 +115,8 @@ p.draft_player {
 
     text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
 
+    z-index: -2;
+
     /* border: #818385;
     border-style: solid; */
 }
