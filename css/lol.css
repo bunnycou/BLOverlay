@@ -292,7 +292,7 @@ div.score_redMain {
     width: 18vw;
     height: 12vh;
 
-    background: var(--red);
+    background: var(--gold);
 
     border-radius: var(--border-all);
 }
@@ -306,7 +306,7 @@ div.score_redScore {
     width: 8vw;
     height: 16vh;
 
-    background: var(--red);
+    background: var(--gold);
 
     border-radius: var(--border-all);
 }
