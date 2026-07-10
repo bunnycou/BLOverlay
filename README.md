@@ -5,7 +5,7 @@ Hosted at [bloverlaygh.carrotbyte.net](https://bloverlaygh.carrotbyte.net)
 
 ## How to use
 
-Download the [`BeerLeagueWeb.json`](BeerLeagueWeb.json) for OBS (The URLs need to be changed from bloverlay to bloverlaygh)
+Download the [`BeerLeagueWeb.json`](BeerLeagueWeb.json) for OBS
 
 ### OR Setup without BeerLeagueWeb.json
 
