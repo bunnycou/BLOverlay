@@ -580,7 +580,7 @@
             "id": "browser_source",
             "versioned_id": "browser_source",
             "settings": {
-                "url": "https://bloverlay.carrotbyte.net/lol/draft.html",
+                "url": "https://bloverlaygh.carrotbyte.net/lol/draft.html",
                 "width": 1920,
                 "height": 1080,
                 "restart_when_active": true
@@ -769,7 +769,7 @@
             "id": "browser_source",
             "versioned_id": "browser_source",
             "settings": {
-                "url": "http://bloverlay.carrotbyte.net/lol/ending.html",
+                "url": "http://bloverlaygh.carrotbyte.net/lol/ending.html",
                 "width": 1920,
                 "height": 1080,
                 "restart_when_active": true
@@ -804,7 +804,7 @@
             "id": "browser_source",
             "versioned_id": "browser_source",
             "settings": {
-                "url": "https://bloverlay.carrotbyte.net/lol/game.html",
+                "url": "https://bloverlaygh.carrotbyte.net/lol/game.html",
                 "width": 1920,
                 "height": 1080,
                 "fps_custom": false,
@@ -1312,7 +1312,7 @@
             "id": "browser_source",
             "versioned_id": "browser_source",
             "settings": {
-                "url": "https://bloverlay.carrotbyte.net/lol/intro.html",
+                "url": "https://bloverlaygh.carrotbyte.net/lol/intro.html",
                 "width": 1920,
                 "height": 1080,
                 "restart_when_active": true
@@ -1414,7 +1414,7 @@
             "id": "browser_source",
             "versioned_id": "browser_source",
             "settings": {
-                "url": "https://bloverlay.carrotbyte.net/assets/logo.html"
+                "url": "https://bloverlaygh.carrotbyte.net/assets/logo.html"
             },
             "mixers": 255,
             "sync": 0,
@@ -1700,7 +1700,7 @@
             "id": "browser_source",
             "versioned_id": "browser_source",
             "settings": {
-                "url": "https://bloverlay.carrotbyte.net/lol/scores.html",
+                "url": "https://bloverlaygh.carrotbyte.net/lol/scores.html",
                 "width": 1920,
                 "height": 1080,
                 "restart_when_active": true,
@@ -1891,7 +1891,7 @@
             "id": "browser_source",
             "versioned_id": "browser_source",
             "settings": {
-                "url": "https://bloverlay.carrotbyte.net/lol/starting.html",
+                "url": "https://bloverlaygh.carrotbyte.net/lol/starting.html",
                 "width": 1920,
                 "height": 1080,
                 "restart_when_active": true
