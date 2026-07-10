@@ -1,31 +1,31 @@
 # Beer League Overlay
-JavaScript + HTML + CSS Project Made for [Beer League](https://www.beerleaguelegends.org/home) Casters!
+JavaScript + HTML + CSS Project Made for [Beer League](https://beer-league.games/) Casters!
 
-Hosted at [bloverlay.carrotbyte.net](https://bloverlay.carrotbyte.net)
+Hosted at [bloverlaygh.carrotbyte.net](https://bloverlaygh.carrotbyte.net)
 
 ## How to use
 
-Download the [`BeerLeagueWeb.json`](BeerLeagueWeb.json) for OBS
+Download the [`BeerLeagueWeb.json`](BeerLeagueWeb.json) for OBS (The URLs need to be changed from bloverlay to bloverlaygh)
 
 ### OR Setup without BeerLeagueWeb.json
 
 Add the following URLs as browser sources to different scenes
 
-`https://bloverlay.carrotbyte.net/lol/starting.html` - Starting Soon Screen\
-`https://bloverlay.carrotbyte.net/lol/intro.html` - Intro Screen (POTW)\
-`https://bloverlay.carrotbyte.net/lol/draft.html` - Draft Screen\
-`https://bloverlay.carrotbyte.net/lol/game.html` - In Game Overlay\
-`https://bloverlay.carrotbyte.net/lol/scores.html` - Score Display Screen\
-`https://bloverlay.carrotbyte.net/lol/ending.html` - Stream Over Screen
+`https://bloverlaygh.carrotbyte.net/lol/starting.html` - Starting Soon Screen\
+`https://bloverlaygh.carrotbyte.net/lol/intro.html` - Intro Screen (POTW)\
+`https://bloverlaygh.carrotbyte.net/lol/draft.html` - Draft Screen\
+`https://bloverlaygh.carrotbyte.net/lol/game.html` - In Game Overlay\
+`https://bloverlaygh.carrotbyte.net/lol/scores.html` - Score Display Screen\
+`https://bloverlaygh.carrotbyte.net/lol/ending.html` - Stream Over Screen
 
 
 The Score Display Screen has dead space intended for you to fill. 
 There is dead space in Intro and Draft as well which can be filled by webcams or this fancy [BL logo](assets/bl.png) 
-(browser source for logo is `https://bloverlay.carrotbyte.net/assets/logo.html`)
+(browser source for logo is `https://bloverlaygh.carrotbyte.net/assets/logo.html`)
 
 ## **IMPORTANT FOR ALL SETUPS** - After you get the scenes
 
-Then add an OBS browser dock with the URL `https://bloverlay.carrotbyte.net/lol/data.html`
+Then add an OBS browser dock with the URL `https://bloverlaygh.carrotbyte.net/lol/data.html`
 
 This will add a window in OBS that gives fields for entering the information that needs to be displayed on screen
 
