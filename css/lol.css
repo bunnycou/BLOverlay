@@ -45,14 +45,18 @@ img.overlayImg {
 /* Static */
 div#static_TEXT {
     position: absolute;
-    top: 89.4vh;
-    left: 37.5vw;
-    height: 4vh;
-    width: 25vw;
+    top: 75vh;
+    /* left: 37.5vw; */
+    height: 10vh;
+    width: 100vw;
 }
 
 p#static {
-    font-size: 2em;
+    font-size: 4em;
+    font-weight: bold;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* DRAFT */
