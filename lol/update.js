@@ -35,6 +35,7 @@ function load() {
     try { document.getElementById("patch").textContent = patch } catch (error) { console.log("No patch display") }
     try { document.getElementById("static").textContent = static } catch (error) { console.log("No static display") }
     try { document.getElementById("motd").textContent = motd } catch (error) { console.log("No motd display") }
+    try { document.getElementById("scoreText").textContent = "Game " + game + " Soon! BRB!" } catch (error) {console.log("No scoreText display")}
     console.log("--Load Done--")
 }
 
