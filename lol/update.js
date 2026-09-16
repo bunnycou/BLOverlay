@@ -30,8 +30,8 @@ function load() {
     // try { loadTeam(blueTeam, "blue") } catch (error) { console.log("No bluePlayer display") }
     // try { loadTeam(redTeam, "red") } catch (error) { console.log("No redPlayer display") }
     // try { document.getElementById("game").textContent = game } catch (error) { console.log("No game num display") }
-    try { document.getElementById("draftOverlay").src = "Game"+game+"Draft.png" } catch (error) { console.log("No draftOverlay display") }
-    try { document.getElementById("mapOverlay").src = league+"Map.png" } catch (error) { console.log("No mapOverlay display") }
+    try { document.getElementById("draftOverlay").src = "../assets/Game"+game+"Draft.png" } catch (error) { console.log("No draftOverlay display") }
+    try { document.getElementById("mapOverlay").src = "../assets/"+league+"Map.png" } catch (error) { console.log("No mapOverlay display") }
     try { document.getElementById("patch").textContent = patch } catch (error) { console.log("No patch display") }
     try { document.getElementById("static").textContent = static } catch (error) { console.log("No static display") }
     try { document.getElementById("motd").textContent = motd } catch (error) { console.log("No motd display") }
