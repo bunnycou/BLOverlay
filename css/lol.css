@@ -35,8 +35,15 @@ div {
     margin: 0;
 }
 
-/* INTRO */
-div#intro_POTW {
+img.overlayImg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+
+/* Static */
+div#static_TEXT {
     position: absolute;
     top: 89.4vh;
     left: 37.5vw;
@@ -44,18 +51,11 @@ div#intro_POTW {
     width: 25vw;
 }
 
-p#potw {
+p#static {
     font-size: 2em;
 }
 
 /* DRAFT */
-
-img#overlayImg {
-    position: absolute;
-    left: 0;
-    top: 0;
-    z-index: -1;
-}
 
 div.draft_team {
     position: absolute;
